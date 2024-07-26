@@ -605,7 +605,7 @@ section {
 
 /** icon **/
 [class^="icon-"], [class*=" icon-"]{
-    vertical-align: text-top;
+    vertical-align: middle;
 }
 .post-infor-wrapper .post-author:before, .post-date:before, .post-skill:before, .post-industry:before, .post-duration:before,
 .post-infor-wrapper .post-visit:before, .image-caption:before, article a:before, .post-reading:before{
