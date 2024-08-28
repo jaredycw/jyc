@@ -50,7 +50,7 @@ export default async function AboutGrowth(){
                         <div className="flex-none ml-0 md:ml-5 mb-5 md:mb-0">
                                     <Image
                                     className='shadow-sm bg-black w-16 h-16'
-                                    src="https://scontent.fhkg1-2.fna.fbcdn.net/v/t39.30808-6/358038468_649902333836294_2162611304487076399_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Xwsfvm277nEQ7kNvgHotgPk&_nc_ht=scontent.fhkg1-2.fna&oh=00_AYBVH2njtaJbk3cYlBf5w9FdVbyNwtkuiU3F8ltS3PRDJg&oe=66D53753"
+                                    src="https://www.london.ac.uk/themes/custom/numiko/dist/uol-white-logo-6d52f0fd.svg"
                                     alt="University of London"
                                     width={50}
                                     height={50}
@@ -76,7 +76,7 @@ export default async function AboutGrowth(){
                         <div className="flex-none ml-0 md:ml-5 mb-5 md:mb-0">
                                     <Image
                                     className='shadow-sm bg-black w-16 h-16'
-                                    src="https://scontent.fhkg1-1.fna.fbcdn.net/v/t39.30808-6/348446791_626735882845021_5687417241057110085_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CMApq0R718IQ7kNvgEMujBv&_nc_ht=scontent.fhkg1-1.fna&oh=00_AYCchIXPwOnmkjp64PEFUSFVOww-4VZtLY8OzDje8_iS2Q&oe=66D54808"
+                                    src="https://www.hkbu.edu.hk/content/dam/hongkongbaptistuniversity/logo/hkbu/20210106_newLogo.svg"
                                     alt="Hong Kong Baptist University"
                                     width={50}
                                     height={50}
