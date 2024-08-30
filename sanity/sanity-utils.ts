@@ -370,7 +370,7 @@ export async function getExps(): Promise<Experiment[]>{
 
     return createClient(clientConfig).fetch(
 
-        groq`*[_type=="experiment"][10]| order(postOrder desc){
+        groq`*[_type=="experiment"][0...10]| order(postOrder desc){
             _id,
             "slug": slug.current,
             title,"mainImage":mainImage.asset->url,
