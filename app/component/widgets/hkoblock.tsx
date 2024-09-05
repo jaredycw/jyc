@@ -18,7 +18,7 @@ export default function HKOWeatherWidget(){
             <div className=" flex flex-wrap flex-col md:flex-row items-center now-playing p-6">
             <h2 className="mb-5 ml-0 md:ml-5 uppercase border-b">Today</h2>
             <div className="mb-5 ml-0 md:ml-5">
-                {hkoWeather.hkoIcon.map((icon, index) => (
+                {hkoWeather.hkoIcon.map((icon:any, index) => (
                     <Image
                       key={index}
                       src={`https://www.hko.gov.hk/images/HKOWxIconOutline/pic${icon}.png`}
