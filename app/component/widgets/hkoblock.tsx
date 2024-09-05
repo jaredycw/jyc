@@ -26,7 +26,8 @@ export default function HKOWeatherWidget(){
                       height={100}
                       alt={`Weather Icon ${icon}`}
                       onError={(e) => {
-                        e.target.style.display = 'none'; // Hide the image if it fails to load
+                        const target = e.currentTarget as HTMLImageElement; // Type assertion
+                        target.style.display = 'none'; // Hide the image if it fails to load
                       }}
                     />
                   ))}
