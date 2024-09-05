@@ -19,6 +19,7 @@ export default function HKOWeatherWidget(){
             <h2 className="mb-5 ml-0 md:ml-5 uppercase border-b">Today</h2>
             <div className="mb-5 ml-0 md:ml-5">
                 {hkoWeather.hkoIcon.map((icon: number, index: number) => (
+                    console.log(`Icon number: ${icon}`); 
                     <Image
                       key={index}
                       src={`https://www.hko.gov.hk/images/HKOWxIconOutline/pic${icon}.png`}
